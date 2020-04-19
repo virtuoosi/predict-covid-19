@@ -1,0 +1,4 @@
+urllib3~=1.25.9
+jinja2~=2.11.2
+numpy~=1.18.2
+plotly~=4.6.0

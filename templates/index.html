@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Finnish COVID-19 predictions</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+<body>
+
+<div id="wrapper">
+
+<h1>COVID-19 data and predictions</h1>
+
+<p class="updatetime">The data updates automatically every three hours. Last update: {{ updated }}</p>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>
+    TODO: write the introduction. 
+    Source code available in <a href="https://github.com/virtuoosi/predict-covid-19">Github</a>.
+</p>
+
+<hr>
+
+<h2>The dataset</h2>
+
+<p>
+    This section covers the dataset the predictions on this page are based on. The dataset is sourced from the <a href="https://thl.fi/en/web/thlfi-en">Finnish institute for health and welfare</a> (Terveyden ja hyvinvoinnin laitos, THL).
+    THL provides the data used on this page as <a href="https://thl.fi/fi/tilastot-ja-data/aineistot-ja-palvelut/avoin-data/varmistetut-koronatapaukset-suomessa-covid-19-">open data</a>.
+    No modifications to the dataset have been made to facilitate the predictions on this page. All visualizations of the THL data are provided as is with no guarantees of correctness.
+</p>
+
+<h3>Reported cases</h3>
+
+{{ total_cases_div }}
+
+<p class="explanation">The total number of cases reported each day. Cases may be reported with a delay of 2 to 4 days.</p>
+
+<h3>Reported cases by Hospital District</h3>
+
+{{ cases_by_hdc_div }}
+
+<p class="explanation">The number of cases reported each day in each Hospital District.</p>
+
+<h3>Cumulative reported cases</h3>
+
+{{ cumulative_total_cases_div }}
+
+<p class="explanation">Cumulative sum of the cases reported each day.</p>
+
+<h3>Cumulative reported cases by Hospital District</h3>
+
+{{ cases_by_hdc_stack_div }}
+
+<p class="explanation">Cumulative sum of the cases reported each day in each Hospital District.</p>
+
+<h3>Reported cases by age group</h3>
+
+{{ cases_by_age_group_div }}
+
+<h3>Reported tests</h3>
+
+{{ total_tests_div }}
+
+<p class="explanation">The total number of reported tests each day. These are tests carried out by different laboratories for patients in Finland.</p>
+
+<h3>Cumulative reported tests</h3>
+
+{{ cumulative_total_tests_div }}
+
+<p class="explanation">Cumulative sum of the tests reported each day.</p>
+
+<hr>
+
+<h2>Predictions</h2>
+
+<p class="explanation">Coming soon...</p>
+
+</div>
+</body>
+</html>

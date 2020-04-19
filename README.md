@@ -1,1 +1,3 @@
-# predict-covid-19
+# Covid-19 predictions for Finland
+
+TODO

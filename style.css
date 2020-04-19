@@ -1,0 +1,41 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("assets/texturetastic_gray.png");
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.updatetime {
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    font-style: italic;
+}
+
+h3 {
+    margin-top: 3em;
+}
+
+.explanation {
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+#wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3em;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0em 0em 5em rgba(0, 0, 0, 0.3);
+}
